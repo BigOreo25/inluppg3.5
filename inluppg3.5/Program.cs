@@ -26,6 +26,9 @@ namespace inluppg35
                 case "4":
                     Console.WriteLine("ditt svar blir " + (tal1 / tal2) + ". njut");
                     break;
+                default:
+                    Console.WriteLine("inte ett räknesätt!!!");
+                    break;
             }
    
         }
